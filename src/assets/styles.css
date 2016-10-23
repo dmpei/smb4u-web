@@ -39,6 +39,14 @@ html {
   background: #555;
 }
 
+.menubtn:visited {
+  background: #222;
+}
+
+.menubtn:active {
+  background: #555;
+}
+
 .clothingbox {
   flex-direction: row;
   display:inline-block;
@@ -48,7 +56,11 @@ html {
   flex-direction: row;
   display:inline-block;
   /*border: 1px grey solid;*/
-  /*max-width: 65%; */
+}
+
+.analytics {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*@media (max-width: 990px) {
